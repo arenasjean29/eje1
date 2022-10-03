@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+
+    <EditText
+        android:id="@+id/txtnumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingrese un numero"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/txtnumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingrese el 2do numero"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Resultado"
+
+        />
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sumar"
+
+        android:text="sumar"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="restar"
+        android:text="restar"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiplicacion"
+        android:text="multiplicar"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="divicion"
+        android:text="dividir"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+</LinearLayout>
